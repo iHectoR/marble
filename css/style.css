@@ -1,0 +1,238 @@
+body{
+	color: #5c5c5c;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	min-width: 1200px;
+}
+p{
+	color: #616161;
+}
+section{
+	padding-top: 60px;
+}
+.container{
+	width: 1200px;
+	padding: 0 15px;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+header{
+	padding: 45px 0;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	font-weight: 700;
+	background-image: url(../img/header_bg.jpg);
+	-webkit-box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+	-moz-box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+	box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+}
+
+.logo{
+	text-transform: uppercase;
+	float: left;
+	display: inline-block;
+	font-size: 40px;
+	color: #4e4e4e;
+	text-decoration: none;
+}
+.menu{
+	text-transform: uppercase;
+	float: right;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 40px;
+}
+.menu li{
+	float: left;
+	padding: 0 10px;
+}
+.menu li a{
+	color: #4e4e4e;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #1abb9c;
+}
+.slider{
+	background-image: url(../img/slider.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;
+	height: 600px;
+	padding-top: 190px;
+}
+.slide-caption{
+	font: 700 40px 'Roboto Slab', Arial, sans-serif;
+	color: #ffffff;
+	margin-bottom: 35px;
+}
+.direction{
+	font: 700 32px 'Roboto Slab', Arial, sans-serif;
+	color: #a8a8a8;
+	margin-bottom: 40px;
+}
+.c-port{
+	display: inline-block;
+	font: 14px 'Roboto Condensed', Arial, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 25px;
+	background-color: #3F8DBF;
+	-webkit-box-shadow: 0 4px 0 0 #3678A3;
+	-moz-box-shadow: 0 4px 0 0 #3678A3;
+	box-shadow: 0 4px 0 0 #3678A3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.features .container{
+	text-align: center;
+	padding-bottom: 60px;
+	/*border-bottom: 2px solid #DCDCDC;*/
+}
+.features hr{
+	margin-top: 60px;
+	margin-bottom: 0;
+	color: #DCDCDC;
+}
+.features .ba-grid > [class*="ba-width-"]{
+	padding-left: 50px;
+}
+.features .ba-grid{
+	margin-left: -50px;
+}
+.features .circle{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.features p{
+	line-height: 1.7;
+}
+.features .ba-width-1-4:nth-child(1) .circle{
+	background-color: #9D9ABF;
+}
+.features .ba-width-1-4:nth-child(2) .circle{
+	background-color: #D2514B;
+}
+.features .ba-width-1-4:nth-child(3) .circle{
+	background-color: #66A3C6;
+}
+.features .ba-width-1-4:nth-child(4) .circle{
+	background-color: #E8C04F;
+}
+.little-header{
+	font: 700 18px 'Roboto Slab', Arial, sans-serif;
+	color: #4e4e4e;
+	margin-bottom: 10px;
+}
+.works{
+	padding-bottom: 60px;
+}
+.works .ba-grid > [class*="ba-width-"]{
+	padding-left: 10px;
+}
+.works .ba-grid{
+	margin-left: -10px;
+}
+.cat-title{
+	font: 700 18px 'Roboto Condensed', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.work-image{
+	margin-bottom: 25px;
+
+}
+.tags{
+	font: 400 13px 'Roboto Slab', Arial, sans-serif;
+	color: #a8a8a8;
+	margin-bottom: 25px;
+}
+.works p {
+	line-height: 2;
+}
+.above-footer{
+	text-align: center;
+	background-color: #EFEFEF;
+	padding-bottom: 60px;
+}
+.quotes{
+	margin-bottom: 30px;
+}
+.above-footer blockquote{
+	font: 20px/1.5 'Roboto Slab', Arial, sans-serif;
+	color: #a1a1a1;
+	padding-left: 155px;
+	padding-right: 155px;
+}
+footer{
+	padding-top: 50px;
+	background-image: url(../img/footer_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-box-shadow: inset 0 9px 0 0 rgba(0,0,0,.22);
+	-moz-box-shadow: inset 0 9px 0 0 rgba(0,0,0,.22);
+	box-shadow: inset 0 9px 0 0 rgba(0,0,0,.22);
+}
+footer .ba-grid > [class*="ba-width-"]{
+	padding-left: 40px;
+}
+footer .ba-grid{
+	margin-left: -40px;
+}
+footer p, footer li, footer address{
+	line-height: 1.7;
+}
+footer, footer p{
+	color: #cacaca;
+}
+footer .cat-title{
+	color: #6c6c6c;
+}
+footer hr{
+	margin-top: 50px;
+	border-color: rgba(255, 255, 255, .11);
+}
+footer .copyr{
+	padding: 50px 0;
+}
+address{
+	margin-top: 35px;
+}
+.adress, .phone, .email, .twitter li{
+	position: relative;
+	padding-left: 25px;
+
+}
+.adress:before, .phone:before, .email:before, .twitter li:before{
+	position: absolute;
+	left: 0;
+	top: 3px;
+	color: #a89574;
+	font-size: 13px;
+	font-family: FontAwesome;
+}
+.adress:before{
+	content: "\f041";
+}
+.phone:before{
+	content: "\f095";
+}
+.email:before{
+	content: "\f0e0";
+}
+.twitter li:before{
+	content: "\f099";
+}
+.twitter li+li, .popular li+li{
+	margin-top: 30px;
+}
+.popular .date{
+	font: 12px/1.7 'Roboto Slab', Arial, sans-serif;
+}
+.about+.about{
+	margin-top: 25px;
+}
